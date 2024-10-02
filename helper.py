@@ -10,7 +10,7 @@ def show_notification(message):
         title="Screenshot Captured",
         message=message,
         app_name="Snipping Tool",
-        timeout=2  # Show notification for 5 seconds
+        timeout=5  # Show notification for 5 seconds
     )
 
 def clipboard_contains_image():
